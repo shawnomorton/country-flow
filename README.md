@@ -2,11 +2,11 @@
 
 *Take me home, to the fluor, that I belong.*
 
-Country Flow is a flow cytometry panel designer. You pick the surface markers you want to look at, it checks your lab's antibody catalog for the fluors you actually have, and it splits the markers across panels (A, B, C…) so every marker lands in a free detector. Then it exports a printable panel figure for your lab notebook and a CSV for digital archiving.
+Country Flow is a flow cytometry panel designer. Upload a spreadsheet containing the catalog of antibodies for your research lab (containing the fluors YOU actually have) and it will split the markers across panels (A + B, with the option to add additional) so every marker will be organized into an available detector. Then, it exports a printable panel figure that can be pasted into your lab notebook as well as a CSV for digital archiving. 
 
 It ships set up for a 7-detector **BD FACSCanto II** (FITC, PE, PerCP-Cy5.5, APC, APC-Cy7, Pacific Blue, AmCyan), with PI read in PerCP-Cy5.5 for live/dead.
 
-There is no server and no login. It is a static web page, so you can host it free on GitHub Pages or open `index.html` from a folder.
+There is no server and no login. It is a static web page, so you can host it free on GitHub Pages or open `index.html` from a folder. None of the data you upload is stored, as it all operates locally on your device. :^)
 
 ## What it does
 
